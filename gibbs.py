@@ -116,7 +116,7 @@ class Gibbs:
             C_flase += 1
         else:
             C_true += 1
-        for i in range(99998):
+        for i in range(999998):
             temp = self.P_table[self.P_table.index == initial_state]
             temp2 = temp.values
             temp2 = temp2.ravel()
